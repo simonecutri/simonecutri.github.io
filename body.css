@@ -1,0 +1,22 @@
+body {
+	width: 100vw;
+	
+}
+
+p {
+	margin-top: 50vh;
+	text-align: center;
+	font-size: 1.2em;
+	color: black; }
+
+	#confetti{
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+

@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "title";
+    src: url(font/Autostyler.otf);
+}
+
+@font-face {
+    font-family: "paragr";
+    src: url(font/Atlas-Typewriter-Thin.otf);
+}
+
+@font-face {
+    font-family: "name";
+    src: url(font/Atlas-Typewriter-Medium.otf);
+}
+
+@font-face {
+	font-family: "sub";
+	src: url(font/AtlasGrotesk-Light.otf);
+}
+
+@keyframes fadeinout {
+  100% { opacity: 0; }
+  80% { opacity: 1; }
+  10% { opacity: 1; }
+  0% { opacity: 0;}
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  80% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+body{
+	background: black;
+}
+
+
+.inter_long {
+	position: absolute;
+	z-index: 1;
+	width: 100vw;
+	-webkit-animation: fadeinout 7s linear forwards;
+    animation: fadeinout 7s linear forwards;
+}
+
+.inter_short {
+	position: fixed;
+	z-index: 1;
+	width: 100vw;
+	-webkit-animation: fadeinout 3s linear forwards;
+    animation: fadeinout 3s linear forwards;
+}
+
+.sub {
+	position: fixed;
+	z-index: 2;
+	width: 100vw;
+	height: 95vh;
+	animation: fadein 4s linear forwards;
+	 -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+.sub_long {
+	position: fixed;
+	z-index: 2;
+	width: 100vw;
+	height: 95vh;
+	animation: fadein 8s linear forwards;
+	 -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+.sub_long02 {
+	position: fixed;
+	z-index: 2;
+	width: 100vw;
+	height: 95vh;
+	animation: fadein 8s linear forwards;
+}
+
+.fort {
+	position: fixed;
+	z-index: 500;
+	width: 100vw;
+	height: 16vh;
+	bottom: 20%;
+	animation: fadein 4s linear forwards;
+	 -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   overflow: scroll;
+ 
+}
+
+.now {
+	margin: 0 auto;
+	font-family: "sub";
+    text-align: center;
+	font-size: 3em;	
+	padding: 3%;
+	color: white;
+	overflow: scroll;
+}
+
+
+h1 {
+	width: 50vw;
+	margin: 0 auto;
+	color: white;
+	font-family: "title";
+	font-size: 4em;
+	text-align: center;
+	margin-top: 30vh;
+}
+
+p {
+	width: 60vw;
+	margin: 0 auto;
+	font-family: "sub";
+    text-align: center;
+	font-size: 1em;	
+	padding: 3%;
+	color: white;
+	line-height: 1.4em;
+
+}
+
+
+::cue {
+	font-family: "sub";
+	font-size: 1em;
+  	color: white;
+  	background-color:none;
+}
+
+video{
+	width: 100%;
+}
+.this{
+	border: 1px solid white;
+	width: 150px;
+	height: 150px;
+	border-radius: 8px;
+	padding: 10px;
+	color: white;
+	font-family: "sub";
+	font-size: 1em;
+	text-align: center;
+	text-decoration: none;
+	float: right;
+	margin-right: 5%;
+	margin-top: 10%;
+}
+
+.right{
+	border: 1px solid white;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-family: "sub";
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    z-index: 900;
+    /* margin-right: 5%; */
+    /* margin-top: 10%; */
+    position: fixed;
+    animation: fadein 4s linear forwards;
+    top: 50%;
+    right: 5%;
+}
+
+.left{
+	border: 1px solid white;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-family: "sub";
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    z-index: 900;
+    /* margin-right: 5%; */
+    /* margin-top: 10%; */
+    position: fixed;
+    animation: fadein 4s linear forwards;
+    top: 50%;
+    left: 5%;
+}
+
+
+a{
+	color: white;
+	text-decoration: none;
+	position: relative;
+	top: 50px;
+}
+
+
+
+

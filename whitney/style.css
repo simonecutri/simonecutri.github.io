@@ -1,0 +1,67 @@
+
+
+body {
+
+}
+
+.home{
+	width: 5%;
+}
+
+a{
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+	  font-family: 'helvetica neue' ;
+	font-size: 1.1em;
+}
+
+img {
+	width: 900px;
+	margin-left: 24%;
+}
+
+#container {
+	width: 100%;
+	margin: 0% auto;
+}
+
+ul{
+	margin-left: 1%;
+	padding: 0;
+}
+
+h1{
+	  font-family: 'helvetica neue' ;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+a{
+	color: white;
+}
+
+#video {
+	width: 100%;
+	margin: 0% auto;
+	display: grid;
+  	grid-template-columns: repeat(2, 50%);
+  	grid-gap: 10px;
+}
+#video2 {
+	width: 100%;
+	margin: 0% auto;
+	display: grid;
+  	grid-template-columns: repeat(4, 25%);
+  	grid-gap: 10px;
+}
+
+iframe {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.vp-player-layout { margin: 0; padding: 0; }

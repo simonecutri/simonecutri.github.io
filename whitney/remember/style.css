@@ -1,0 +1,48 @@
+@font-face {
+  font-family: unionreg;
+  src: url("fonts/Union-Regular.otf");
+}
+
+@font-face {
+  font-family: unionita;
+  src: url("fonts/Union-Italic.otf");
+}
+	
+
+	p{
+		font-family: 'unionreg', sans-serif;
+		font-weight: normal;
+		font-style: normal;
+		color: black;
+		font-size: 5.5em;
+		line-height: 1em;
+		text-decoration: none;
+		letter-spacing: -0.02em;
+		text-rendering: geometricPrecision !important;
+		-webkit-font-smoothing: antialiased;
+		margin: 0;
+	}
+
+	h1{
+		font-family: 'unionreg', sans-serif;
+		font-weight: normal;
+		font-style: normal;
+		color: rgb(0,0,255);;
+		font-size: 3em;
+		line-height: 1em;
+		text-decoration: none;
+		letter-spacing: -0.02em;
+		text-rendering: geometricPrecision !important;
+		-webkit-font-smoothing: antialiased;
+		margin: 0;
+
+	}
+
+body{
+	margin-top: 4%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+
+
